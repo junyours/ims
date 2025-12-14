@@ -43,7 +43,7 @@ const useAppState = create(
                 setVolunteers: (volunteers) => set({ volunteers }),
                 base_url:
                     import.meta.env.VITE_APP_URL ||
-                    "https://cyan-cobra-409315.hostingersite.com/backend/public/api/",
+                    "https://ims.occph.com/backend/public/api/",
                 map_token: import.meta.env.VITE_MAPBOX_TOKEN,
                 zones: [],
                 setZones: (zones) => set({ zones }),
